@@ -1,0 +1,118 @@
+.dashboard {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoutBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b6b;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.addUrl {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.addUrl input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.addUrl button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #00d4ff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.urlList {
+  display: grid;
+  gap: 15px;
+}
+
+.urlCard {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.urlCard h3 {
+  margin: 0 0 10px 0;
+}
+
+.short {
+  color: #00d4ff;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actions button:first-child {
+  background: #00d4ff;
+  color: #fff;
+}
+
+.actions button:last-child {
+  background: #ff6b6b;
+  color: #fff;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #00d4ff;
+  color: #fff;
+  cursor: pointer;
+}
